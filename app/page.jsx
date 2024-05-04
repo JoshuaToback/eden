@@ -1,36 +1,33 @@
-"use client";
+'use client'
 
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import React from "react";
+import { Link, Element } from "react-scroll";
 import Hero from "./components/Hero";
 import Episode from "./components/Episode";
 import About from "./components/About";
 import Cast from "./components/Cast";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div className="">
-      <Parallax pages={5}>
-        <ParallaxLayer speed={1}>
-          <Hero />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1} speed={0.5}>
-          <Episode />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={2} speed={0.5}>
-          <About />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={3} speed={0.5}>
-          <Cast />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={4} speed={0.5}>
-          <Contact />
-        </ParallaxLayer>
-      </Parallax>
+    <div>
+      <Navbar />
+      <Element name="hero">
+        <Hero />
+      </Element>
+      <Element name="episode">
+        <Episode />
+      </Element>
+      <Element name="about">
+        <About />
+      </Element>
+      <Element name="cast">
+        <Cast />
+      </Element>
+      <Element name="contact">
+        <Contact />
+      </Element>
     </div>
   );
 }

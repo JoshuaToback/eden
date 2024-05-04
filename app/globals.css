@@ -16,6 +16,14 @@
   }
 }
 
+
+
+a:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

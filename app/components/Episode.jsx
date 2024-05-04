@@ -1,13 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 
 const Episode = () => {
+  const episodeRef = useRef(null);
+
   return (
-    <div className="h-screen flex items-center justify-center">
-      <div>
-        {/* Your Episode Section Content Here */}
-        <h2 className="text-3xl font-semibold mb-4">Episode Section</h2>
-        {/* SoundCloud Embed Code Here */}
-      </div>
+    <div ref={episodeRef} className="h-screen flex items-center justify-center text-white">
+      <h2 className="text-3xl font-semibold">Episode Section</h2>
     </div>
   );
 };
