@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { FaTwitter } from "react-icons/fa";
-import { Button } from "react-scroll";
 
 const CastAndCrew = ({ castMembers }) => {
   return (
@@ -16,7 +15,7 @@ const CastAndCrew = ({ castMembers }) => {
             <Image
               src={castMember.image}
               alt={castMember.name}
-              className="w-40 h-auto mt-2 mb-4"
+              className="w-auto h-40 mt-2 mb-4"
             />
           </div>
           <p className="text-sm">{castMember.description}</p>
@@ -29,12 +28,6 @@ const CastAndCrew = ({ castMembers }) => {
                 <FaTwitter size={36} className="m-8" />
               </a>
             )}
-            <button className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">
-              Button 2
-            </button>
-            <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">
-              Button 3
-            </button>
           </div>
         </div>
       ))}
