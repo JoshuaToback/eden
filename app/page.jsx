@@ -1,6 +1,7 @@
 'use client'
 
 import React from "react";
+
 import { Link, Element } from "react-scroll";
 import Hero from "./components/Hero";
 import Episode from "./components/Episode";
@@ -8,6 +9,8 @@ import About from "./components/About";
 import Cast from "./components/Cast";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+
+
 
 export default function Home() {
   return (

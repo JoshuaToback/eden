@@ -6,6 +6,7 @@ import EdenLogo from "../images/Eden_Transparent.png";
 
 import Amazon from "../images/AmazonMusic.png";
 import Spotify from "../images/Spotify.png";
+import Apple from "../images/Apple.png";
 
 const Hero = () => {
   return (
@@ -32,6 +33,11 @@ const Hero = () => {
         <button className="w-[200px] h-auto">
           <a href="https://open.spotify.com/show/0C5GqAWQNimj2NA3UkJPyn">
             <Image src={Spotify} alt="Spotify" />
+          </a>
+        </button>
+        <button className="w-[200px] h-auto">
+          <a href="https://podcasts.apple.com/us/podcast/eden/id1745784242">
+            <Image src={Apple} alt="Apple" />
           </a>
         </button>
       </div>

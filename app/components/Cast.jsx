@@ -6,6 +6,9 @@ import CastAndCrew from "./CastAndCrew";
 import Vivian from "../images/Vivian.jpg"
 import Ethan from "../images/ethan.jpg"
 import Luis from "../images/luis.jpg"
+import Josh from "../images/headshot2024.png"
+import cody from "../images/codyrock.png"
+import mitchell from "../images/mitchell.jpg"
 
 
 const Cast = () => {
@@ -13,21 +16,40 @@ const Cast = () => {
     {
       name: "Vivian Reed | Felicity Dawn",
       image: Vivian,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "",
       twitter: "https://twitter.com/aferalsunflower"
     },
 
     {
       name: "Ethan Grant | Warden Luna",
       image: Ethan,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "",
       twitter: "https://twitter.com/EthanGrantVO"
     },
     {
       name: "Luis Luna | Jack Johnson",
       image: Luis,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "",
       twitter: "https://twitter.com/gH0uLVA"
+    },
+
+    {
+      name: "Joshua Toback | Daniel Carmine",
+      image: Josh,
+      description: "",
+      twitter: "https://twitter.com/JTVoiceActor"
+    },
+    {
+      name: "Cody Rock | Mobius Dawn",
+      image: cody,
+      description: "",
+      twitter: "https://twitter.com/CodyRockVO"
+    },
+    {
+      name: "MItchell Lee | Robert Hobbs",
+      image: mitchell,
+      description: "",
+      twitter: "https://twitter.com/MitchellLeeVO"
     },
 
 
