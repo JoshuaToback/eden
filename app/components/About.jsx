@@ -3,11 +3,15 @@ import { FaTwitter, FaTiktok } from "react-icons/fa";
 
 const AboutSection = () => {
   return (
-    <section className="h-screen flex items-center justify-center text-white">
-      <div className="container mx-auto">
-        <h2 className="text-6xl text-center font-bold mb-8">Explore Eden</h2>
-        <h3 className="text-3xl text-center font-bold mb-8">What is Eden?</h3>
-        <p className="text-lg mb-8">
+    <section className="h-screen flex flex-col items-center justify-center text-white">
+      <div className="container mx-auto px-4 md:px-0">
+        <h2 className="text-4xl md:text-6xl text-center font-bold mb-8">
+          Explore Eden
+        </h2>
+        <h3 className="text-2xl md:text-3xl text-center font-bold mb-8">
+          What is Eden?
+        </h3>
+        <p className="text-base md:text-lg mb-8 text-center">
           Eden is a sci-fi audio drama focused on the conflict between various
           factions for the control of the biggest oil reserve in the solar
           system, Eden. Eden is the codename for Titan, the moon on Saturn.
@@ -38,12 +42,7 @@ const AboutSection = () => {
             <FaTiktok size={24} />
           </a>
         </div>
-
-        <div className="">
-          <h3></h3>
-        </div>
       </div>
-      
     </section>
   );
 };

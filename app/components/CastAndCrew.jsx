@@ -15,17 +15,21 @@ const CastAndCrew = ({ castMembers }) => {
             <Image
               src={castMember.image}
               alt={castMember.name}
-              className="w-auto h-40 mt-2 mb-4"
+              width={200}
+              height={200}
+              className="mt-2 mb-4 rounded-lg"
             />
           </div>
-          <p className="text-sm">{castMember.description}</p>
-          <div className="flex justify-between mt-4">
-          {castMember.twitter && (
+          <p className="text-sm text-center">{castMember.description}</p>
+          <div className="flex justify-center mt-4">
+            {castMember.twitter && (
               <a
                 href={castMember.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition duration-300"
               >
-                <FaTwitter size={36} className="m-8" />
+                <FaTwitter size={24} />
               </a>
             )}
           </div>
