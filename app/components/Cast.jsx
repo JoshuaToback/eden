@@ -56,7 +56,7 @@ const Cast = () => {
       <h2 className="text-xl md:text-2xl mb-4">Check us out on IMDb!</h2>
       <div className="flex justify-center mb-4">
         <a
-          href="https://www.imdb.com/"
+          href="https://www.imdb.com/title/tt31779267/?ref_=nm_flmg_unrel_1_act"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full"

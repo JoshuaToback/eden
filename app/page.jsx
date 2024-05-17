@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React from "react";
 
@@ -9,8 +9,6 @@ import About from "./components/About";
 import Cast from "./components/Cast";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-
-
 
 export default function Home() {
   return (

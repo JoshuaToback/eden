@@ -14,7 +14,7 @@ export const metadata = {
   description:
     "The official website of Eden, an audio drama created by Dead of Night Productions",
   icons: {
-    icon: "./EdenHand.png", 
+    icon: "./EdenHand.png",
   },
 };
 
