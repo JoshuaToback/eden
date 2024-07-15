@@ -9,6 +9,7 @@ import Luis from "../images/luis.jpg";
 import Josh from "../images/headshot2024.png";
 import cody from "../images/codyrock.png";
 import mitchell from "../images/mitchell.jpg";
+import chase from "../images/chase.jpg";
 
 const Cast = () => {
   const castMembers = [
@@ -47,6 +48,13 @@ const Cast = () => {
       image: mitchell,
       description: "",
       twitter: "https://twitter.com/MitchellLeeVO",
+    },
+
+    {
+      name: "Chase Beck | Robin Beacon ",
+      image: chase,
+      description: "",
+      twitter: "https://x.com/TheChaseBeck",
     },
   ];
 
